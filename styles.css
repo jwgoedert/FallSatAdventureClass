@@ -1,9 +1,31 @@
 .game-header {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: coral;
+    color: #FB5601;
     font-size: 64px;
+    margin-left: 24px;
+    margin-top: 10px;
+    background-color: black;
 }
 
-#first-game-info{
+#first-game-info {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.game-subheader {
+    margin-left: 10%;
+    font-size: 24px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.body-text {
+    font-size: 16px;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.image {
+    max-height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
