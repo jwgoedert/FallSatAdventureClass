@@ -39,3 +39,34 @@ var gameListCheck = function (member) {
 
 gameListCheck(classMember1);
 gameListCheck(classMember2);
+
+let game = {
+    name:"Earthbound",
+    difficulty: 2,
+    imgUrl: "Assets/EarthBound_Box.jpeg",
+    system: ["SNES"],
+    description:"this is just some info about the game",
+    subheader:"Earthbound and game about earth"
+}
+
+let gameDiv = document.getElementById("game");
+let gameImg = document.createElement("img");
+let gameName = document.createElement("h1");
+let gameSubheader = document.createElement("h2");
+let gameBody =  document.createElement("p");
+
+gameSubheader.innerHTML= "EarthboundAndBeyond";
+gameBody.innerHTML = "some random text";
+gameName.innerHTML = "EarthBound";
+gameImg.src = "Assets/EarthBound_Box.jpeg";
+gameDiv.appendChild(gameImg);
+gameDiv.appendChild(gameName);
+gameDiv.appendChild(gameSubheader);
+gameDiv.appendChild(gameBody);
+
+console.log(game.name);
+
+
+
+
+
